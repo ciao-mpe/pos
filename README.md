@@ -1,7 +1,7 @@
 # pos
 Simple pos (point of sale) system for HND
 
-Install App
+Install
 -------------------------------------------------------------------------------------------------
 First you have to install composer to your system ( https://getcomposer.org/ )
 
@@ -11,7 +11,7 @@ Then run "composer install"
 
 After installing all dependencies, run "composer dump-autoload -o" in your terminal
 
-Configuration 
+Configure
 --------------------------------------------------------------------------------------------------
 In this application all configurations are writes in the config.php (system/config/config.php)
 
