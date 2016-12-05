@@ -1,0 +1,41 @@
+.navbar-default {
+    margin-bottom:50px;
+}
+.errors{
+    padding: 15px;
+    background-color: #f2dede;
+    color: #666;
+    list-style-type: none !important;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.errors ul {
+    list-style-type: square;
+    padding-left:20px;
+}
+.errors ul li{
+   margin: 5px 0px;
+}
+
+.invoice-title h2, .invoice-title h3 {
+    display: inline-block;
+}
+
+.table > tbody > tr > .no-line {
+    border-top: none;
+}
+
+.table > thead > tr > .no-line {
+    border-bottom: none;
+}
+
+.table > tbody > tr > .thick-line {
+    border-top: 2px solid;
+}
+
+.main-products .thumbnail a>img, .main-products .thumbnail>img {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px !important;
+    max-height: 200px !important;
+}
