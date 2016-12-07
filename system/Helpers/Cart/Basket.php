@@ -10,8 +10,8 @@ use stdClass;
 
 class Basket {
 
-    private $storage;
-    private $db;
+    protected $storage;
+    protected $db;
 
     public function __construct(Storage $storage, Database $db) {
         $this->storage = $storage;
