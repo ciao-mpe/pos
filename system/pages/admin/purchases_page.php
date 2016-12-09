@@ -80,8 +80,8 @@ $app->get('/admin/purchaes/order/products/add/:id', $auth(true), $admin_staff(),
     $request = $app->request;
     $product = $app->db->getByid('product', $id)->first();
 
-    if($app->pocart->has($product->id)) {
-        $product->reorder = $app->pocart->get($product->id)['quantity'];
+    if($app->pocart->has($product)) {
+        $product->reorder = $app->pocart->get($product)['quantity'];
     }
 
     if ($product) {
@@ -110,7 +110,7 @@ $app->post('/admin/purchaes/order/products/add/:id', $auth(true), $admin_staff()
         if ($request->post('quantity') && $request->post('quantity') != 0) {
             $quantity = $request->post('quantity');
         }
-        $app->pocart->add($product->id, $quantity);
+        $app->pocart->add($product, $quantity);
 
         $app->response->redirect($app->urlFor('admin_purchases_order'));
 
