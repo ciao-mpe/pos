@@ -19,4 +19,7 @@ In this application all configurations are writes in the config.php (system/conf
 2. if your using mysql then you have to add mysql database credentials to the config.php and change 'db' => 'type' into mysql
 
 
-
+Online View
+--------------------------------------------------------------------------------------------------
+https://www.ciaompe.com/sites/zeus/public/
+https://www.ciaompe.com/sites/zeus/public/admin
