@@ -18,8 +18,3 @@ In this application all configurations are written in the config.php (system/con
 1. app => url is the main url for the application ( ex: http://localhost:8080/pos/' )
 2. if your using mysql then you have to add mysql database credentials to the config.php and change 'db' => 'type' into mysql
 
-
-Online View
---------------------------------------------------------------------------------------------------
-https://www.ciaompe.com/sites/zeus/public/
-<br>https://www.ciaompe.com/sites/zeus/public/admin
